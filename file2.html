@@ -5,7 +5,7 @@
     <script>
       function downloadIPA() {
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'https://example.com/path/to/your/ipafile.ipa', true);
+        xhr.open('GET', 'itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/qamarabbas408/ota-demo/main/manifest.plist', true);
         xhr.responseType = 'blob';
 
         xhr.onprogress = function(event) {
