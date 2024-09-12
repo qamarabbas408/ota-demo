@@ -1,0 +1,50 @@
+{
+    "status": "success",
+    "message": "recent search result found",
+    "data": [
+{
+            "id": 725,
+            "origin": "Anywhere",
+            "destination": null,
+            "from_date": "2024-09-09",
+            "to_date": "2024-09-12",
+            "equipment_detail": "Partial",
+            "eq_type_id": [
+                {
+                    "id": 1,
+                    "name": "Van",
+                    "prefix": "V",
+                    "is_active": 1,
+                    "created_at": "2024-05-15T21:14:14.000000Z",
+                    "updated_at": "2024-05-15T21:14:14.000000Z"
+                },
+                {
+                    "id": 13,
+                    "name": "Dump Trailer",
+                    "prefix": "DT",
+                    "is_active": 1,
+                    "created_at": "2024-05-15T21:14:14.000000Z",
+                    "updated_at": "2024-05-15T21:14:14.000000Z"
+                }
+            ],
+            "eq_name": null,
+            "length": "",
+            "weight": "",
+            "user_id": 45,
+            "request": {
+                "from_date": "2024-09-09",
+                "to_date": "2024-09-12",
+                "origin": "Anywhere",
+                "destination_states": [
+                    "1416",
+                    "1420"
+                ],
+                "eq_type_id": [
+                    "1",
+                    "13"
+                ],
+                "equipment_detail": "1"
+            }
+        }
+    ]
+}
